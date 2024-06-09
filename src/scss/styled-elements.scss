@@ -1,0 +1,30 @@
+.card {
+  background: var(--bg-main);
+  border-radius: var(--border-radius-lg);
+}
+
+.border-card-blue {
+  color: var(--blue);
+  border: 1px solid var(--blue);
+  display: flex;
+  padding: 0.3rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--border-radius);
+
+  &.small {
+    padding: 0.2rem;
+    font-size: 0.6rem;
+    border-radius: var(--border-radius-sm);
+  }
+}
+
+.border-card-black {
+  color: var(--black);
+  border: 1px solid var(--black);
+  display: flex;
+  padding: 0.3rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--border-radius);
+}

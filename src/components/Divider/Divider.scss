@@ -11,4 +11,9 @@
   &.blue {
     background: var(--border-light);
   }
+
+  &.vertical {
+    width: 1px;
+    height: auto;
+  }
 }
