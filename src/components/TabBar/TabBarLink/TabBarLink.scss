@@ -1,0 +1,15 @@
+.tab-bar-link {
+  flex: 1;
+  color: var(--text-gray);
+  padding: 1rem;
+  display: flex;
+  font-weight: 500;
+  align-items: center;
+  border-bottom: 1px solid var(--border-light);
+  justify-content: center;
+
+  &.active {
+    color: var(--text-blue);
+    border-bottom: 2px solid var(--blue);
+  }
+}

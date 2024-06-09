@@ -5,8 +5,10 @@ import React from 'react';
 
 import { Navbar } from 'components/Navbar/Navbar';
 import { Button } from 'components/Button/Button';
+import { TabBar } from 'components/TabBar/TabBar';
 import { Divider } from 'components/Divider/Divider';
 import { IconButton } from 'components/IconButton/IconButton';
+import { TabBarLink } from 'components/TabBar/TabBarLink/TabBarLink';
 
 import './App.scss';
 
@@ -35,6 +37,11 @@ function App() {
         16 trades, ⭐ 90%
       </div>
       <Divider color='blue' />
+      <TabBar>
+        <TabBarLink to='/'>New Ad</TabBarLink>
+        <TabBarLink to='/' active>Active</TabBarLink>
+        <TabBarLink to='/'>History</TabBarLink>
+      </TabBar>
     </div>
   );
 }
