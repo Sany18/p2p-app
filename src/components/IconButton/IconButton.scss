@@ -2,6 +2,7 @@
   width: 2.2rem;
   height: 2.2rem;
   border: none;
+  padding: 1.5rem;
   cursor: pointer;
   display: flex;
   background: transparent;
@@ -16,5 +17,18 @@
 
   &:active {
     background: var(--bg-blue);
+  }
+
+  &.icon-button-flat {
+    color: var(--text-blue);
+    background-color: var(--bg-blue);
+
+    &:hover {
+      background: var(--bg-light-blue);
+    }
+
+    &:active {
+      background: var(--bg-blue);
+    }
   }
 }

@@ -1,0 +1,39 @@
+.button {
+  gap: 0.5rem;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  padding: 0.9rem;
+  font-size: 1rem;
+  font-weight: 500;
+  align-items: center;
+  border-radius: var(--border-radius);
+  background-color: transparent;
+
+  &.button-flat {
+    color: var(--text-blue);
+    background-color: var(--bg-blue);
+
+    &:hover {
+      background-color: var(--bg-light-blue);
+    }
+
+    &:active {
+      background-color: var(--bg-blue);
+    }
+  }
+
+  &.button-stroked {
+    color: var(--text-blue);
+    border: 1px solid var(--blue);
+    background-color: var(--bg-main);
+
+    &:hover {
+      background-color: var(--bg-light-blue);
+    }
+
+    &:active {
+      background-color: var(--bg-main);
+    }
+  }
+}

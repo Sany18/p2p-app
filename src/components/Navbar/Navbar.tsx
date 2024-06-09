@@ -5,7 +5,7 @@ import { IconButton } from 'components/IconButton/IconButton';
 
 export const Navbar: React.FC = () => {
   return (
-    <nav className='flex justify-content-between p-2'>
+    <nav className='flex justify-content-between'>
       <div className='flex align-items-center gap-2'>
         <Link to="/">
           <IconButton icon='arrow_back' />
