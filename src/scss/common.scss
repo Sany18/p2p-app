@@ -1,0 +1,83 @@
+@use 'sass:math';
+
+@for $i from 1 through 20 {
+  .m-#{$i} {
+    margin: #{math.div($i, 4)}rem;
+  }
+  .mt-#{$i} {
+    margin-top: #{math.div($i, 4)}rem;
+  }
+  .mb-#{$i} {
+    margin-bottom: #{math.div($i, 4)}rem;
+  }
+  .ml-#{$i} {
+    margin-left: #{math.div($i, 4)}rem;
+  }
+  .mr-#{$i} {
+    margin-right: #{math.div($i, 4)}rem;
+  }
+  .mx-#{$i} {
+    margin-left: #{math.div($i, 4)}rem;
+    margin-right: #{math.div($i, 4)}rem;
+  }
+  .my-#{$i} {
+    margin-top: #{math.div($i, 4)}rem;
+    margin-bottom: #{math.div($i, 4)}rem;
+  }
+
+  .p-#{$i} {
+    padding: #{math.div($i, 4)}rem;
+  }
+  .pt-#{$i} {
+    padding-top: #{math.div($i, 4)}rem;
+  }
+  .pb-#{$i} {
+    padding-bottom: #{math.div($i, 4)}rem;
+  }
+  .pl-#{$i} {
+    padding-left: #{math.div($i, 4)}rem;
+  }
+  .pr-#{$i} {
+    padding-right: #{math.div($i, 4)}rem;
+  }
+  .px-#{$i} {
+    padding-left: #{math.div($i, 4)}rem;
+    padding-right: #{math.div($i, 4)}rem;
+  }
+  .py-#{$i} {
+    padding-top: #{math.div($i, 4)}rem;
+    padding-bottom: #{math.div($i, 4)}rem;
+  }
+
+  .flex-#{$i} {
+    flex: $i;
+  }
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.align-items-center {
+  align-items: center;
+}
