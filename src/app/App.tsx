@@ -3,12 +3,16 @@
 
 import React from 'react';
 
+import { Navbar } from 'components/Navbar/Navbar';
+import { Divider } from 'components/Divider/Divider';
+
 import './App.scss';
 
 function App() {
   return (
-    <div className='p-2'>
-      test
+    <div>
+      <Navbar />
+      <Divider color='gray'  />
     </div>
   );
 }

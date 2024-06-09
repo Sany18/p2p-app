@@ -1,3 +1,4 @@
+@use 'scss/var';
 @use 'scss/common';
 
 html {
@@ -20,4 +21,9 @@ code {
 
 * {
   box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-blue);
 }

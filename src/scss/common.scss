@@ -52,6 +52,10 @@
   .flex-#{$i} {
     flex: $i;
   }
+
+  .gap-#{$i} {
+    gap: #{math.div($i, 4)}rem;
+  }
 }
 
 .flex {
@@ -80,4 +84,12 @@
 
 .align-items-center {
   align-items: center;
+}
+
+.text-decoration-none {
+  text-decoration: none;
+}
+
+.font-weight-600 {
+  font-weight: 600;
 }

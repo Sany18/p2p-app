@@ -1,0 +1,14 @@
+.divider {
+  height: 0.1rem;
+  border: none;
+  margin: 0;
+  background: var(--border-gray-light);
+
+  &.gray {
+    background: var(--border-gray-light);
+  }
+
+  &.blue {
+    background: var(--border-light);
+  }
+}
