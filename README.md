@@ -1,3 +1,5 @@
+![](./preview.png?raw=true)
+
 ## Before starting
 Install
 
